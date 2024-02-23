@@ -14,6 +14,7 @@
 		C124F9A22B8845FA002C7C0D /* SwiftUI100knocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124F9A12B8845FA002C7C0D /* SwiftUI100knocksTests.swift */; };
 		C124F9AC2B8845FA002C7C0D /* SwiftUI100knocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124F9AB2B8845FA002C7C0D /* SwiftUI100knocksUITests.swift */; };
 		C124F9AE2B8845FA002C7C0D /* SwiftUI100knocksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124F9AD2B8845FA002C7C0D /* SwiftUI100knocksUITestsLaunchTests.swift */; };
+		C1C3EF8E2B8855020035C2CB /* FitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3EF8D2B8855020035C2CB /* FitImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C124F9A72B8845FA002C7C0D /* SwiftUI100knocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI100knocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C124F9AB2B8845FA002C7C0D /* SwiftUI100knocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100knocksUITests.swift; sourceTree = "<group>"; };
 		C124F9AD2B8845FA002C7C0D /* SwiftUI100knocksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100knocksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1C3EF8D2B8855020035C2CB /* FitImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C124F98F2B8845F8002C7C0D /* SwiftUI100knocks */ = {
 			isa = PBXGroup;
 			children = (
+				C1C3EF8C2B8854D50035C2CB /* Tasks */,
 				C124F9902B8845F8002C7C0D /* SwiftUI100knocksApp.swift */,
 				C124F9922B8845F8002C7C0D /* MainView.swift */,
 				C124F9942B8845FA002C7C0D /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				C124F9AD2B8845FA002C7C0D /* SwiftUI100knocksUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI100knocksUITests;
+			sourceTree = "<group>";
+		};
+		C1C3EF8C2B8854D50035C2CB /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3EF8D2B8855020035C2CB /* FitImageView.swift */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C124F9932B8845F8002C7C0D /* MainView.swift in Sources */,
+				C1C3EF8E2B8855020035C2CB /* FitImageView.swift in Sources */,
 				C124F9912B8845F8002C7C0D /* SwiftUI100knocksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

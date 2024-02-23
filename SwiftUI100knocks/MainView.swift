@@ -21,7 +21,7 @@ struct MainView: View {
                     .font(.title2)
                 ) {
                     TabView {
-                        Text("Page01")
+                        FitImageView()
                         Text("Page02")
                     }
                     .frame(height: 300)
